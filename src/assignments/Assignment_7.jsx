@@ -13,7 +13,7 @@ export default function Assignment_7() {
       .catch((error) => {
         console.error("Error fetching colors:", error);
       });
-  }, []); // empty dependency → runs only on mount
+  }, []); 
 
   return (
     <div>
