@@ -12,7 +12,7 @@ export default function Assignment_9() {
   function fetchColors(query = "", pageNum = 1) {
     axios.get(`https://apis.dnjs.lk/objects/colors.php?search=${query}&page=${pageNum}&limit=${limit}`)
       .then((response) => {
-        setColors(response.data.data); // data array
+        setColors(response.data.data); 
         const total = response.data.total;
         setTotalPages(Math.ceil(total / limit));
       })
@@ -20,11 +20,11 @@ export default function Assignment_9() {
   }
 
   useEffect(() => {
-    fetchColors("", page); // fetch all on mount
+    fetchColors("", page); 
   }, []);
 
   function handleSearch() {
-    setPage(1); // reset to page 1
+    setPage(1); 
     fetchColors(searchTerm, 1);
   }
 
