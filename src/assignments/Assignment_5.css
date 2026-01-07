@@ -1,0 +1,44 @@
+div {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.top-buttons button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.top-buttons button:hover {
+  background-color: #1d4ed8;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.8;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+ol {
+  margin-top: 20px;
+}

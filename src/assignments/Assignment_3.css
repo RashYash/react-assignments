@@ -1,0 +1,31 @@
+div {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+ol {
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 5px 0;
+}

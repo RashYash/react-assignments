@@ -1,0 +1,41 @@
+/* Page layout */
+div {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Dropdown style */
+select {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Input boxes */
+input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 120px;
+}
+
+/* Calculate button */
+button {
+  padding: 10px 16px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #15803d;
+}
+
+/* Result text */
+p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
